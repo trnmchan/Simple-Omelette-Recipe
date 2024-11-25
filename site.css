@@ -33,35 +33,6 @@ h2 {
     margin-bottom: 1rem;
 }
 
-.recipe-ingredients {
-    margin: 1rem 0;
-}
-
-.recipe-ingredients span{
-    color: hsl(24, 5%, 18%);
-}
-.recipe-nutrition {
-    margin-top: 1rem;
-}
-
-ul {
-    padding-left: 1.25rem;
-}
-
-ul li::marker{
-    color: hsl(14, 45%, 36%);
-    font-weight: bold;
-}
-
-ul li {
-    margin-bottom: 0.5rem;
-}
-
-ul li span{
-    color:  hsl(14, 45%, 36%);
-    margin-left: 1rem;
-    font-weight: 700;
-}
 
 hr {
     margin: 1.5 rem 0;
@@ -87,9 +58,37 @@ hr {
     padding: 0rem 2rem 2rem 2rem;
 }
 
-.sub-title {
+.recipe-title .sub-title {
     margin: 1.5rem 0;
     color: hsl(30, 10%, 34%);
+}
+
+.recipe-ingredients {
+    margin: 1rem 0;
+}
+
+.recipe-ingredients span{
+    color: hsl(24, 5%, 18%);
+}
+
+
+.recipe-ingredients ul {
+    padding-left: 1.25rem;
+}
+
+.recipe-ingredients ul li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.recipe-ingredients ul li {
+    margin-bottom: 0.5rem;
+}
+
+.recipe-ingredients ul li span{
+    color:  hsl(14, 45%, 36%);
+    margin-left: 1rem;
+    font-weight: 700;
 }
 
 .recipe-prep {
@@ -103,6 +102,9 @@ hr {
     margin-bottom: 0.75rem;
 }
 
+.recipe-prep ul{
+    padding-left: 1.25rem;
+}
 .recipe-prep ul li::marker{
     color: hsl(332, 51%, 32%);
 }
@@ -147,6 +149,10 @@ hr {
     font-weight: 700;
 }
 
+.recipe-nutrition {
+    margin-top: 1rem;
+}
+
 .recipe-nutrition .nutrition-sub-title{
     color: hsl(30, 10%, 34%);
 }
@@ -156,12 +162,12 @@ hr {
     font-weight: 700;
 }
 
-table {
+.recipe-nutrition table {
     border-collapse: collapse;
     width: 100%
 }
 
-tr {
+.recipe-nutrition tr {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 1rem;
@@ -170,7 +176,7 @@ tr {
     color: hsl(30, 10%, 34%);
 }
 
-tr:last-child {
+.recipe-nutrition tr:last-child {
     border-bottom: 0;
 }
 
